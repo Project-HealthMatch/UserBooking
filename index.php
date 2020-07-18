@@ -416,6 +416,9 @@ input[type="tel"] {
 
 }
 }
+#initiallyHiddenBlock {
+    display: none;
+}
 
     </style>
 
@@ -696,8 +699,8 @@ input[type="tel"] {
                   </div>
 
 
-  <input id="formButton"type="button" class="optionalbtn" value="OPTIONAL">
-  <div id="form1" >
+  <input id="showHiddenBlock"type="button" class="optionalbtn" value="OPTIONAL">
+  <div id="initiallyHiddenBlock" >
                    <h4 class="titleform">OPTIONAL DETAILS:</h4>
      <br>
           <div class="inset">
@@ -1101,14 +1104,13 @@ input[type="tel"] {
       });
     </script>
 
-    <script>
-
-$("#formButton").click(function(){
-        $("#form1").toggle();
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+   <script>
+   $(document).ready(function() {
+    $('#showHiddenBlock').click(function() {
+        $('#initiallyHiddenBlock').show();
     });
-
-
-
+});
 </script>
   </body>
 </html>
