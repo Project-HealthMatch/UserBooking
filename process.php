@@ -12,8 +12,8 @@ $optional = filter_input(INPUT_POST, 'optional');
 $opt = filter_input(INPUT_POST, 'opt');
 if (!empty($date) || !empty($timezoneId) || !empty($slot) || empty($name) || !empty($email)){
 
-$host = "healthmatch-database-server";
-$dbusername = "HEALTHMATCH@healthmatch-database-server";
+$host = "healthmatch-server";
+$dbusername = "HEALTHMATCH@healthmatch-server";
 $dbpassword = "Hackathon2020";
 $dbname = "appointment";
 // Create connection
