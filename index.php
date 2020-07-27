@@ -25,7 +25,15 @@ function build_calendar($month,$year){
     />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<script
+    type="text/javascript"
+    src="https://cdn.weglot.com/weglot.min.js"
+  ></script>
+  <script>
+    Weglot.initialize({
+      api_key: "wg_6595b397394b082513ae5269c8992a3d7",
+    });
+  </script>
     <style>
       input[type="text"] {
         font-family: "Abel", sans-serif;
