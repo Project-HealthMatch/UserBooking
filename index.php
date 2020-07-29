@@ -49,7 +49,7 @@ function build_calendar($month,$year){
         transition: 0.2s linear;
        color:black;
         width:90%;
-
+font-size: 2rem;
       }
 
       @media(min-width:800px){
@@ -132,7 +132,7 @@ function build_calendar($month,$year){
         border-radius: 5px 5px 5px 5px;
         transition: 0.2s linear;
          color:black;
-
+font-size: 2rem;
       }
 
   .headerdoctor {
@@ -314,7 +314,7 @@ width:90%;
   input[type="email"],input[type="text"],input[type="tel"]{
 width:40%;
 color:black;
-font-size: 1rem;
+font-size: 2rem;
   }
   }
  table {
@@ -366,7 +366,7 @@ input[type="tel"] {
         background-color: rgba(255, 255, 255, 0.788);
         border-radius: 5px 5px 5px 5px;
         transition: 0.2s linear;
-
+font-size: 2rem;
         height:5rem;
         width: 40%;
 
@@ -406,16 +406,17 @@ input[type="tel"] {
 @media(min-width:800px){
 
   .container{
-  padding-left: 30%;
+  padding-left: 23%;
 }
 
   .datetext{
 
-  width: 50%;
+  width: 65%;
   border-style: solid;
   border-width: 0.1rem;
   border-radius: 5px;
    color:black;
+   margin-left:0;
 }
 .timezonetext{
 
