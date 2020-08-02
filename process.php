@@ -27,7 +27,7 @@ $sql = "INSERT INTO booking (date, timezoneid, slot, name, email, countryCode, p
 
 values ('$date','$timezoneid','$slot','$name','$email', '$countryCode', '$phonenumber', '$age', '$gender', '$optional', '$opt')";
 if ($conn->query($sql)){
-echo "New record is inserted sucessfully";
+header("Location: index.html");
 }
 else{
 echo "Error: ". $sql ."
