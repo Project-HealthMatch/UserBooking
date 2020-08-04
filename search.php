@@ -1415,6 +1415,17 @@ margin-left: 12rem;
          
           }
             }
+              
+              @media(max-width:900px){
+                  .slotbox{
+
+      
+           
+            padding-top: 1rem;
+            margin-left: 1%;
+            }
+
+              }
 
                   </style>
 
