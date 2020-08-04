@@ -1397,13 +1397,13 @@ margin-left: 12rem;
 
            .headerread {
        
-margin-left: 14rem;
+margin-left: 12rem;
         
       }
 
       .headerdate {
         
-    margin-left: 17rem;
+    margin-left: 15rem;
          
           }
             }
