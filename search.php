@@ -1416,15 +1416,11 @@ margin-left: 12rem;
         </div>
 
                     <form action="process.php" method="POST">
-                  <div class="readonly">  <h3 class="headerdate">
-                    Date:
-                  </h3>
+                  <div class="readonly">
                   <input type="text" class="form-control" id="date"
       name = "date" value = "<?php echo $_POST['date'];?>" readonly>
 
-                  <h3 class="headerread">
-                Timezone:
-                </h3>
+                
                 <input type="text" class="form-control" id="timeZoneId"
     name = "timezoneid" style="font-size: 1.2rem;" value = "<?php echo $_POST['timeZoneId'];?>" readonly>
     </div>
