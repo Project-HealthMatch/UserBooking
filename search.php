@@ -1426,7 +1426,7 @@ margin-left: 14rem;
                 Timezone:
                 </h3>
                 <input type="text" class="form-control" id="timeZoneId"
-    name = "timezoneid" style="font-size: 1rem;" value = "<?php echo $_POST['timeZoneId'];?>" readonly>
+    name = "timezoneid" style="font-size: 1.2rem;" value = "<?php echo $_POST['timeZoneId'];?>" readonly>
     </div>
 <div style="text-align: center;">
               <h3 class="headerdoctor">
