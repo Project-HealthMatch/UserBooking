@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -1428,7 +1426,7 @@ margin-left: 14rem;
                 Timezone:
                 </h3>
                 <input type="text" class="form-control" id="timeZoneId"
-    name = "timezoneid" value = "<?php echo $_POST['timeZoneId'];?>" readonly>
+    name = "timezoneid" style="font-size: 1rem;" value = "<?php echo $_POST['timeZoneId'];?>" readonly>
     </div>
 <div style="text-align: center;">
               <h3 class="headerdoctor">
@@ -1436,7 +1434,7 @@ margin-left: 14rem;
             </h3>
             <?php
 
-  $link = mysqli_connect("localhost", "root", "root", "schedule");
+  $link = mysqli_connect("healthmatch-server.mysql.database.azure.com","HEALTHMATCH@healthmatch-server","Hackathon2020", "schedule");
 
   // Check connection
   if($link === false){
@@ -1506,7 +1504,9 @@ $n=sizeof($emptyarray);
           // Close result set
           mysqli_free_result($result);
       } else{
-          echo "No records matching your query were found.";
+        echo'<div style="text-align:center;">';
+          echo "Sorry!No matching slots were found.";
+          echo'</div>';
       }
   } else{
       echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
@@ -1749,11 +1749,9 @@ $n=sizeof($emptyarray);
      <option data-countryCode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
      <option data-countryCode="TV" value="688">Tuvalu (+688)</option>
      <option data-countryCode="UG" value="256">Uganda (+256)</option>
-
      <option data-countryCode="UA" value="380">Ukraine (+380)</option>
      <option data-countryCode="AE" value="971">United Arab Emirates (+971)</option>
      <option data-countryCode="UY" value="598">Uruguay (+598)</option>
-
      <option data-countryCode="UZ" value="7">Uzbekistan (+7)</option>
      <option data-countryCode="VU" value="678">Vanuatu (+678)</option>
      <option data-countryCode="VA" value="379">Vatican City (+379)</option>
