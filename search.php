@@ -445,7 +445,7 @@ height: 100%;
 
 
                       height: 5rem;
-              width: 100%;
+           
               border-radius: 5px 5px 5px 5px;
               transition: 0.2s linear;
               font-size: 2rem;
@@ -642,7 +642,15 @@ height: 100%;
       }
 
 }
-      
+
+@media(max-width:900px){
+    input[type="email"]{
+
+width: 99%;
+margin: 0;
+
+    }  
+} 
 
           </style>
 
@@ -1386,7 +1394,7 @@ margin-left: 12rem;
   }
 
   
-      input[type="text"]{
+     input[type="email"],input[type="text"]{
         width:99%;
          color:black;
          font-size: 2rem;
@@ -1416,7 +1424,7 @@ margin-left: 12rem;
         </div>
 
                     <form action="process.php" method="POST">
-                  <div class="readonly">
+                  <div class="readonly">  
                   <input type="text" class="form-control" id="date"
       name = "date" value = "<?php echo $_POST['date'];?>" readonly>
 
