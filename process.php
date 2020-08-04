@@ -12,9 +12,9 @@ $optional = filter_input(INPUT_POST, 'optional');
 $opt = filter_input(INPUT_POST, 'opt');
 if (!empty($date) || !empty($timezoneId) || !empty($slot) || empty($name) || !empty($email)){
 
-$host = "healthmatch-server.mysql.database.azure.com";
-$dbusername = "HEALTHMATCH@healthmatch-server";
-$dbpassword = "Hackathon2020";
+$host = "localhost";
+$dbusername = "root";
+$dbpassword = "root";
 $dbname = "appointment";
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
