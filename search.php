@@ -1449,7 +1449,7 @@ margin-left: 12rem;
             </h3>
             <?php
 
-  $link = mysqli_connect("healthmatch-server.mysql.database.azure.com","HEALTHMATCH@healthmatch-server","Hackathon2020", "schedule");
+  $link = mysqli_connect("healthmatch-server.mysql.database.azure.com","HEALTHMATCH@healthmatch-server","Hackathon2020", "appointment");
 
   // Check connection
   if($link === false){
