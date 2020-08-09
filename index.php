@@ -686,7 +686,7 @@ height: 100%;
 <select name="timeZoneId">
 	<option gmtAdjustment="GMT-12:00" useDaylightTime="0" value="International Date Line West (GMT-12:00)">International Date Line West (GMT-12:00) </option>
 	<option  gmtAdjustment="GMT-11:00" useDaylightTime="0" value="Midway Island, Samoa (GMT-11:00)"> Midway Island, Samoa (GMT-11:00)</option>
-	<option  gmtAdjustment="GMT-09:00" useDaylightTime="1" value="Alaska (GMT-09:00)"> </option>
+	<option  gmtAdjustment="GMT-09:00" useDaylightTime="1" value="Alaska (GMT-09:00)">Alaska (GMT-09:00) </option>
 	<option gmtAdjustment="GMT-08:00" useDaylightTime="1" value="Pacific Time (US & Canada)(GMT-08:00)"> Pacific Time (US & Canada)(GMT-08:00)</option>
 	<option  gmtAdjustment="GMT-08:00" useDaylightTime="1" value="Tijuana, Baja California(GMT-08:00)"> Tijuana, Baja California(GMT-08:00)</option>
 	<option  gmtAdjustment="GMT-07:00" useDaylightTime="0" value="Arizona(GMT-07:00"> Arizona(GMT-07:00)</option>
