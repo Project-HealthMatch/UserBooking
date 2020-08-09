@@ -715,8 +715,7 @@ height: 100%;
 	<option gmtAdjustment="GMT+01:00" useDaylightTime="1" value="Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna(GMT+01:00)"> Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna(GMT+01:00)</option>
 	<option gmtAdjustment="GMT+01:00" useDaylightTime="1" value="Belgrade, Bratislava, Budapest, Ljubljana, Prague(GMT+01:00)">Belgrade, Bratislava, Budapest, Ljubljana, Prague(GMT+01:00)</option>
 	<option  gmtAdjustment="GMT+01:00" useDaylightTime="1" value="Brussels, Copenhagen, Madrid, Paris(GMT+01:00)">Brussels, Copenhagen, Madrid, Paris(GMT+01:00) </option>
-
-	<option  gmtAdjustment="GMT+05:30" useDaylightTime="0" value="Chennai, Kolkata, Mumbai, New Delhi(GMT+05:30)">Chennai, Kolkata, Mumbai, New Delhi(GMT+05:30) </option>
+       <option  gmtAdjustment="GMT+05:30" useDaylightTime="0" value="Chennai, Kolkata, Mumbai, New Delhi(GMT+05:30)">Chennai, Kolkata, Mumbai, New Delhi(GMT+05:30) </option>
 	<option  gmtAdjustment="GMT+05:45" useDaylightTime="0" value="Kathmandu(GMT+05:45)"> Kathmandu(GMT+05:45)</option>
 	<option  gmtAdjustment="GMT+06:00" useDaylightTime="1" value="Almaty, Novosibirsk(GMT+06:00)"> Almaty, Novosibirsk(GMT+06:00)</option>
 	<option  gmtAdjustment="GMT+06:00" useDaylightTime="0" value="Astana, Dhaka(GMT+06:00) ">Astana, Dhaka(GMT+06:00) </option>
@@ -735,9 +734,9 @@ height: 100%;
 	<option  gmtAdjustment="GMT+09:30" useDaylightTime="0" value="Darwin(GMT+09:30)">Darwin(GMT+09:30) </option>
 	<option  gmtAdjustment="GMT+10:00" useDaylightTime="0" value="Brisbane(GMT+10:00)"> Brisbane(GMT+10:00)</option>
 	<option gmtAdjustment="GMT+10:00" useDaylightTime="1" value="Canberra, Melbourne, Sydney(GMT+10:00)"> Canberra, Melbourne, Sydney(GMT+10:00)</option>
-	<option  gmtAdjustment="GMT+11:00" useDaylightTime="1" value="Magadan, Solomon Is., New Caledonia(GMT+11:00)"> </option>
-	<option  gmtAdjustment="GMT+12:00" useDaylightTime="1" value="Fiji, Kamchatka, Marshall Is.(GMT+12:00)"> Auckland, Wellington(GMT+12:00)</option>
-	<option  gmtAdjustment="GMT+12:00" useDaylightTime="0" value="Fiji, Kamchatka, Marshall Is.(GMT+12:00)"> </option>
+	<option  gmtAdjustment="GMT+11:00" useDaylightTime="1" value="Magadan, Solomon Is., New Caledonia(GMT+11:00)"> Magadan, Solomon Is., New Caledonia(GMT+11:00)</option>
+	<option  gmtAdjustment="GMT+12:00" useDaylightTime="1" value="Auckland, Wellington(GMT+12:00)"> Auckland, Wellington(GMT+12:00)</option>
+	<option  gmtAdjustment="GMT+12:00" useDaylightTime="0" value="Fiji, Kamchatka, Marshall Is.(GMT+12:00)">Fiji, Kamchatka, Marshall Is.(GMT+12:00) </option>
 
 
 </select>
