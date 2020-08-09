@@ -1508,13 +1508,18 @@ $n=sizeof($emptyarray);
      }
 
      for($i=0; $i<$n; $i++)
-
+     { if($emptyarray[$i])
+       {
+       }
+else
         { echo'<div style="text-align:center;">';
+         
           echo'<div class="slotbox">';
   echo '<input type="radio" id="slot" name="slot" style="margin-right: 0.8rem;" value= '.$emptyarray[$i].'>', $emptyarray[$i] ;
   echo'</div>';
   echo'</div>';
 }
+     }
 
           // Close result set
           mysqli_free_result($result);
