@@ -221,12 +221,11 @@ height: 100%;
 
 
 
+ .submits {
 
-      .submits {
-
-        width: 20%;
+        width: 15%;
         height: 70%;
-       border-radius: 5px 5px 5px 5px;
+       border-radius: 25px;
         outline: none;
         border: none;
         background-image: linear-gradient(to right, #007e71, #86cedb, #1a0549);
@@ -238,6 +237,7 @@ height: 100%;
         margin: 1rem 0;
         cursor: pointer;
         transition: 0.5s;
+	      box-shadow: 1px 1px 4px black;
       }
       .submits:hover {
         background-position: right;
