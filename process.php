@@ -281,7 +281,7 @@ input{
 
       h1{
 
-          margin-top:15%;
+          margin-top:7%;
             font-family: "Vibur", cursive;
 
 
