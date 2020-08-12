@@ -231,7 +231,7 @@ height: 100%;
 
       .submits {
 
-        width: 10%;
+        width: 30%;
         height: 70%;
        border-radius: 5px 5px 5px 5px;
         outline: none;
@@ -660,14 +660,7 @@ margin: 0;
 
     }  
 } 
-        
-         @media(min-width:800px)
-      {.submits {
-
-        width: 10%;
-        height:30%
-      }
-        }
+       
 
           </style>
 
