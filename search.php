@@ -231,7 +231,7 @@ height: 100%;
 
       .submits {
 
-        width: 20%;
+        width: 15%;
         height: 70%;
        border-radius: 5px 5px 5px 5px;
         outline: none;
