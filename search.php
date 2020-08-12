@@ -1557,7 +1557,17 @@ else
                         required
                         type="text"
                         name="name"
-                       placeholder="Name"
+                       placeholder="First Name"
+                      />
+                    </div>
+  
+                    <div class="form-group">
+
+                      <input
+                        required
+                        type="text"
+                        name="lastname"
+                       placeholder="Last Name"
                       />
                     </div>
                     <div class="form-group" class="headervolunteer">
