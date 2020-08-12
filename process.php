@@ -197,7 +197,7 @@ input{
        font-family: "Poppins", sans-serif;
        text-transform: uppercase;
        margin-top: 1rem;
-       margin-left: 39%;
+       margin-left: 37%;
        cursor: pointer;
        transition: 0.5s;
      }
