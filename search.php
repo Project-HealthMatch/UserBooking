@@ -660,6 +660,14 @@ margin: 0;
 
     }  
 } 
+        
+         @media(min-width:800px)
+      {.submits {
+
+        width: 10%;
+        height:30%
+      }
+        }
 
           </style>
 
